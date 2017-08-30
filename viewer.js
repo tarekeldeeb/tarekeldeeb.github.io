@@ -63,7 +63,7 @@ this.div.style.width=e+this.units}},{key:"setWidth",value:function(e){if(e){var 
 n>0&&this.bar.setAttribute("style","width: calc(100% - "+n+"px);")}}},{key:"hide",value:function(){this.visible&&(this.visible=!1,this.bar.classList.add("hidden"),document.body.classList.remove("loadingInProgress"))}},{key:"show",value:function(){this.visible||(this.visible=!0,document.body.classList.add("loadingInProgress"),this.bar.classList.remove("hidden"))}},{key:"percent",get:function(){return this._percent},set:function(e){this._indeterminate=isNaN(e),this._percent=w(e,0,100),this._updateBar()}}]),e}()
 t.CSS_UNITS=96/72,t.DEFAULT_SCALE_VALUE="auto",t.DEFAULT_SCALE=1,t.MIN_SCALE=.25,t.MAX_SCALE=10,t.UNKNOWN_SCALE=0,t.MAX_AUTO_SCALE=1.25,t.SCROLLBAR_PADDING=40,t.VERTICAL_PADDING=5,t.cloneObj=m,t.RendererType=P,t.mozL10n=void 0,t.NullL10n=S,t.EventBus=_,t.ProgressBar=L,t.getPDFFileNameFromURL=g,t.noContextMenuHandler=f,t.parseQueryString=u,t.getVisibleElements=h,t.roundToDivide=d,t.approximateFraction=c,t.getOutputScale=a,t.scrollIntoView=o,t.watchScroll=s,t.binarySearchFirstItem=l,t.normalizeWheelEventDelta=p,t.animationStarted=k,t.localized=C},function(e,t,n){"use strict"
 var i
-i="undefined"!=typeof window&&window["pdfjs-dist/build/pdf"]?window["pdfjs-dist/build/pdf"]:require("../build/pdf.js"),e.exports=i},function(e,t,n){"use strict"
+i="undefined"!=typeof window&&window["pdfjs-dist/build/pdf"]?window["pdfjs-dist/build/pdf"]:require("pdf.js"),e.exports=i},function(e,t,n){"use strict"
 function i(e){e.on("documentload",function(){var e=document.createEvent("CustomEvent")
 e.initCustomEvent("documentload",!0,!0,{}),window.dispatchEvent(e)}),e.on("pagerendered",function(e){var t=document.createEvent("CustomEvent")
 t.initCustomEvent("pagerendered",!0,!0,{pageNumber:e.pageNumber,cssTransform:e.cssTransform}),e.source.div.dispatchEvent(t)}),e.on("textlayerrendered",function(e){var t=document.createEvent("CustomEvent")
@@ -99,7 +99,7 @@ case a.INITIAL:this.highestPriorityPage=e.renderingId
 var n=function(){t.renderHighestPriority()}
 e.draw().then(n,n)}return!0}}]),e}()
 t.RenderingStates=a,t.PDFRenderingQueue=o},function(e,t,n){"use strict"
-function i(e){e.imageResourcesPath="./images/",e.workerSrc="../build/pdf.worker.js",e.cMapUrl="../web/cmaps/",e.cMapPacked=!0}function r(e){return new Promise(function(t,n){var i=se.appConfig,r=document.createElement("script")
+function i(e){e.imageResourcesPath="./images/",e.workerSrc="pdf.worker.js",e.cMapUrl="web/cmaps/",e.cMapPacked=!0}function r(e){return new Promise(function(t,n){var i=se.appConfig,r=document.createElement("script")
 r.src=i.debuggerScriptPath,r.onload=function(){PDFBug.enable(e),PDFBug.init({PDFJS:U.PDFJS,OPS:U.OPS},i.mainContainer),t()},r.onerror=function(){n(new Error("Cannot load debugger at "+r.src))},(document.getElementsByTagName("head")[0]||document.body).appendChild(r)})}function a(){var e=se.appConfig,t=void 0,n=document.location.search.substring(1),i=(0,R.parseQueryString)(n)
 t="file"in i?i.file:e.defaultUrl,ue(t)
 var a=[],o=document.createElement("input")
