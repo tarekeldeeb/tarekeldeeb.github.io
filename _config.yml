@@ -1,0 +1,18 @@
+title: Tarek Eldeeb's Blog
+iconURL: assets/default-icon.png
+theme: jekyll-theme-leaf
+
+# for a clean URL
+permalink: :slug
+
+social:
+  twitter: tarekeldeeb
+  github: tarekeldeeb
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+
+### comments & analytics
+hyvor_talk_website_id: 3992
+google_analytics: G-WRNMX92S02
