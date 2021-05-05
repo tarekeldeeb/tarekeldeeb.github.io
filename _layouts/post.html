@@ -32,14 +32,15 @@ layout: default
     {%- endif -%}
   </p>
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-  {% if page.comments %}
-  <script src="https://utteranc.es/client.js"
-          repo="tarekeldeeb/tarekeldeeb.github.io"
-          issue-term="url"
-          label="Uttr"
-          theme="github-dark"
-          crossorigin="anonymous"
-          async>
-  </script>
-  {% endif %}
 </article>
+
+{% if page.comments %}
+<script src="https://utteranc.es/client.js"
+        repo="tarekeldeeb/tarekeldeeb.github.io"
+        issue-term="title"
+        label="Uttr"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>
+{% endif %}
