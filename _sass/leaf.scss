@@ -27,7 +27,7 @@ $on-laptop:        800px !default;
 	  @content;
 	}
 }  
-
+@import url(http://fonts.googleapis.com/earlyaccess/amiri.css);
 @import 'base';
 @import 'layout';
 @import 'highlight-dark';
