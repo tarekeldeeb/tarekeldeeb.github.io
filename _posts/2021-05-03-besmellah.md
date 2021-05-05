@@ -2,6 +2,7 @@
 layout: post
 author: Tarek Eldeeb
 title: بسم الله الرحمن الرحيم
+comments: true
 ---
 
 <div dir="rtl">
