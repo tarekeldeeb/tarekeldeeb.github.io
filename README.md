@@ -1,4 +1,5 @@
 A personal [blog](https://tarekeldeeb.github.io), with a link to my professional [resume](https://tarekeldeeb.github.io/resume/viewer.html).
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 # Arabic RTL Supported Keryll Theme
 This jekyll theme is based on [theme-Leaf](https://github.com/SupunKavinda/jekyll-theme-leaf), with the following changes:
