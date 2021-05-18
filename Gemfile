@@ -5,6 +5,7 @@ source "https://rubygems.org"
 gem "jekyll-theme-leaf"
 gem "kramdown-parser-gfm"
 
-group :jekyll_plugins do
-  gem 'jekyll_oembed'
-end
+# Plugins that run local only (Not in github pages)
+#group :jekyll_plugins do
+#  gem 'jekyll_oembed'
+#end
