@@ -26,8 +26,16 @@ $on-laptop:        800px !default;
 	@media screen and (max-width: $device) {
 	  @content;
 	}
-}  
-@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+}
+
+/* arabic */
+@font-face {
+  font-family: 'Amiri';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/amiri/v17/J7aRnpd8CGxBHpUrtLMA7w.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+}
 @import 'base';
 @import 'layout';
 @import 'highlight-dark';
