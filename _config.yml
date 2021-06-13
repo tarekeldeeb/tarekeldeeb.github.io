@@ -8,6 +8,7 @@ permalink: :slug
 social:
   twitter: tarekeldeeb
   github: tarekeldeeb
+  linkedin: tarekeldeeb
 
 plugins:
  - jekyll-feed
