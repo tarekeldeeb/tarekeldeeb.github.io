@@ -5,8 +5,8 @@ title: Proving Trinity Wrong in a Short Logical Argument
 comments: true
 ---
 ![trinity_def](https://plato.stanford.edu/entries/trinity/Trinityshield.png)
-Images src: [Stanford](https://plato.stanford.edu/entries/trinity/)
 ![trinity_def](https://plato.stanford.edu/entries/trinity/Moonity.png)
+Images&nbsp;src:&nbsp;[Stanford](https://plato.stanford.edu/entries/trinity/)
 
 Assume:
  - The father is God
