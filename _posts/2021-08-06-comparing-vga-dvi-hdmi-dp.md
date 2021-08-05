@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Tarek Eldeeb
-title: Comparing: VGA, DVI, HDMI, DP
+title: Comparing VGA, DVI, HDMI, DP
 comments: true
 ---
 
