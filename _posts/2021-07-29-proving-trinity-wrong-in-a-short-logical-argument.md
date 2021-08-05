@@ -2,6 +2,7 @@
 layout: post
 author: Tarek Eldeeb
 title: Proving Trinity Wrong in a Short Logical Argument
+published: false
 comments: true
 ---
 ![trinity_def](https://plato.stanford.edu/entries/trinity/Trinityshield.png)
