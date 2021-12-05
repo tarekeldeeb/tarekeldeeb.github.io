@@ -1,4 +1,7 @@
 title: Tarek Eldeeb's Blog
+author: Tarek Eldeeb
+tagline: Personal Blog and Professional Resume
+description: A personal space to share my thoughts. I used to have eldeebs.blogspot.com but it's kinda expired. My professional resume is updated here as well.
 iconURL: assets/default-icon.png
 theme: jekyll-theme-leaf
 
@@ -9,6 +12,13 @@ social:
   twitter: tarekeldeeb
   github: tarekeldeeb
   linkedin: tarekeldeeb
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      image: assets/default-img.png
 
 plugins:
  - jekyll-feed
