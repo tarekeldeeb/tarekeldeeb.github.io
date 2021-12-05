@@ -4,6 +4,7 @@ source "https://rubygems.org"
 #gemspec
 gem "jekyll-theme-leaf"
 gem "kramdown-parser-gfm"
+gem 'jekyll-sitemap'
 
 # Plugins that run local only (Not in github pages)
 #group :jekyll_plugins do
