@@ -2,13 +2,27 @@
 layout: post-rtl
 author: Tarek Eldeeb
 title: شرح كيفية ازالة الموسيقا من أي فيديو أو ملف صوتي
-published: false
 comments: true
 ---
 
-يرغب البعض في ازالة الموسيقا من حياته بصفة عامة لما لها من معايب [شرعية](https://www.islamweb.net/ar/fatwa/232915/%D9%87%D9%84-%D8%A7%D9%84%D8%A7%D8%AE%D8%AA%D9%84%D8%A7%D9%81-%D9%81%D9%8A-%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D9%85%D9%88%D8%B3%D9%8A%D9%82%D9%89-%D9%8A%D8%B9%D8%AF-%D9%85%D9%86-%D8%A7%D9%84%D8%A7%D8%AE%D8%AA%D9%84%D8%A7%D9%81-%D8%A7%D9%84%D8%B3%D8%A7%D8%A6%D8%BA) و[نفسية](https://edition.cnn.com/2019/02/08/health/music-brain-behavior-intl). لكن الواقع الحالي ملئ بها لدرجة يصعب على البعض تخيل فيلم كرتون أطفال بلا موسيقا، برامج تعليمية بلا موسيقا، .. وهكذا. 
+يرغب البعض في ازالة الموسيقا من حياته بصفة عامة لما لها من معايب [شرعية](https://www.islamweb.net/ar/fatwa/232915/%D9%87%D9%84-%D8%A7%D9%84%D8%A7%D8%AE%D8%AA%D9%84%D8%A7%D9%81-%D9%81%D9%8A-%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D9%85%D9%88%D8%B3%D9%8A%D9%82%D9%89-%D9%8A%D8%B9%D8%AF-%D9%85%D9%86-%D8%A7%D9%84%D8%A7%D8%AE%D8%AA%D9%84%D8%A7%D9%81-%D8%A7%D9%84%D8%B3%D8%A7%D8%A6%D8%BA) و[نفسية](https://edition.cnn.com/2019/02/08/health/music-brain-behavior-intl). لكن الواقع الحالي ملئ بها لدرجة يصعب على البعض تخيل فيلم كرتون أطفال بلا موسيقا، برامج تعليمية بلا موسيقا، .. وهكذا. في هذا المقال أبين انه من السهل على أي منا تغيير هذا الواقع.
 
-في هذا المقال سنقوم بشرح طريقة سهلة للتخلص من الموسيقا من ملفات الفيديو في ثلاث خطوات.  لو كنت تريد ازالة الموسيقا من ملف صوتي، يمكنك تطبيق الخطوة رقم 2 فقط. لتنزيل فيديهات يوتيوب بسهولة، يمكنك استخدام [هذا الموقع](https://yt1s.com/).
+## مثال لطيف
+
+<table>
+  <tr>
+    <th><iframe width="100%" src="https://www.youtube.com/embed/dUXk8Nc5qQ8" title="الاصلي مع موسيقا" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></th>
+    <th><iframe width="100%" src="https://www.youtube.com/embed/LJnY-Q602Ls" title="منزوع الموسيقا" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></th>
+  </tr>
+  <tr>
+    <th>الفيديو الاصلي مع موسيقا</th>
+    <th>نفس الفيديو منزوع الموسيقا</th>
+  </tr>
+</table>
+
+
+
+في هذا المقال سنقوم بشرح طريقة سهلة للتخلص من الموسيقا من ملفات الفيديو في ثلاث خطوات.  لو كنت تريد ازالة الموسيقا من ملف صوتي، يمكنك تطبيق الخطوة رقم 2 فقط. ولتنزيل فيديهات يوتيوب بسهولة، يمكنك استخدام [هذا الموقع](https://yt1s.com/).
 
 يوجد برامج كثيرة لعمل الخطوات 1 و 3، ولكننا سنعتمد على أسهلهم. برنامج [VLC](https://www.videolan.org/) ذو القمع البرتقالي موجود بالفعل على أغلب أجهزة الكمبيوتر، كما يدعم لينوكس وماك. برجاء التأكد من وجوده أو انقر الرابط السابق للتنصيب.
 
