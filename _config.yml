@@ -3,7 +3,7 @@ author: Tarek Eldeeb
 tagline: Personal Blog and Professional Resume
 description: A personal space to share my thoughts. I used to have eldeebs.blogspot.com but it's kinda expired. My professional resume is updated here as well.
 iconURL: assets/default-icon.png
-theme: jekyll-theme-leaf
+remote-theme: tarekeldeeb/tarekeldeeb.github.io
 
 # for a clean URL
 permalink: :slug
