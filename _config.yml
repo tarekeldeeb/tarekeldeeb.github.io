@@ -24,7 +24,7 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-sitemap
-
+ - jekyll-gist
 
 ### comments & analytics
 #hyvor_talk_website_id: 3992
