@@ -24,11 +24,11 @@ To crop an SVG you need to
 
 I tried to use  [Inkscape](https://inkscape.org/) to do this cropping but failed! There's no such option. I tried to `cut` and `clip` but this only sets the cut area to invisible, and the nodes are still there, keeping the file size large. There's a logic behind this behavior though, if the off-viewBox nodes are deleted, the path curves (inside the viewBox) will be changed/corrupted.
 
-![nodes](img/inkscape-clip-nodes.jpg)
+![nodes](img/inkscape-clip-nodes.JPG)
 
  This has to be done manually, for each path/curve crossing the viewBox border, add an extra node exactly at the border. Then it's safe to delete the off-viewBox nodes afterwards. 
  
-![nodes](img/inkscape-border-nodes.png)
+![nodes](img/inkscape-border-node.png)
 
 ## Duplicate and Flip
 There's a nice [keyword in SVG](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/use) `use` that lets you use an existing path to create a duplicate. Moreover, there's the possibility to have nested `<svg>` components. Leveraging both features, enabled be to create three duplicates to rebuild the original image with about 1/4 the nodes count.
