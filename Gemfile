@@ -7,6 +7,7 @@ gem "jekyll-theme-leaf"
 gem "kramdown-parser-gfm"
 gem 'jekyll-sitemap'
 gem 'jekyll-gist'
+gem 'webrick'
 
 # Plugins that run local only (Not in github pages)
 #group :jekyll_plugins do
