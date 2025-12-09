@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Tarek Eldeeb
-title: Modeling Quantized 3-Phase Signals in MATLAB | Binning, Symmetry, and Capacitor-Like Delay
+title: Modeling Quantized 3-Phase Signals in MATLAB
 comments: true
 ---
 ![Archive](../img/matlab-plot-3phase-sine.png)
