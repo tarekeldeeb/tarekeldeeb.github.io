@@ -4,6 +4,7 @@ author: Tarek Eldeeb
 title: Modeling Quantized 3-Phase Signals in MATLAB | Binning, Symmetry, and Capacitor-Like Delay
 comments: true
 ---
+![Archive](../img/matlab-plot-3phase-sine.png)
 
 In many power-electronics and signal-processing applications, we need a quantized staircase approximation of a sine wave—one that remains smooth, symmetric, and perfectly aligned across three phases. This is especially useful when modeling digital PWM systems, lookup-table-based control, or simplified capacitor behavior in rectifiers and inverters.
 
