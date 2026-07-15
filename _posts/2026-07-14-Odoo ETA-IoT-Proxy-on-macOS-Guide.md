@@ -56,7 +56,7 @@ These two patches are required to bridge the gap between Odoo's Linux-based logi
 
 ### **Patch A: odoo/addons/hw_drivers/tools/helpers.py**
 
-This helps Odoo to locate your configuration file, read MAC address, and other system specific helper functions. [Patched file to copy over](https://github.com/tarekeldeeb/tarekeldeeb.github.io/raw/master/assets/helper.py)
+This helps Odoo to locate your configuration file, read MAC address, and other system specific helper functions. [Patched file to copy over](https://raw.githubusercontent.com/tarekeldeeb/tarekeldeeb.github.io/refs/heads/master/assets/helpers.py)
 
 ### **Patch B: odoo/addons/hw\_drivers/iot\_handlers/drivers/L10nEGDrivers.py**
 
